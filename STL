@@ -34,6 +34,8 @@ v.erase(v.begin() + 1);
 
 Sort:
 sort(v.begin(), v.end());
+sort(v.rbegin(), v.rend()); //descending order
+(is_sorted(v.begin(), v.end())// check if sorted or not
 
 Reverse:
 reverse(v.begin(), v.end());
